@@ -1,5 +1,3 @@
-import time
-
 from demoqa_project.model.pages import practice_form
 
 
@@ -44,4 +42,4 @@ def test_form_filling():
         'NCR Delhi'
     )
 
-    #practice_form.click_close_button()
+    practice_form.click_close_button()
